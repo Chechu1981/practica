@@ -1,67 +1,50 @@
-.botones{
-   border: 1px solid #000;
-   width:50px;
-   height:50px;
-   margin-left:5px;
-   border-radius: 5px;
-   cursor:pointer;
-}
-
-.white{
-   background-color: #fff;
-}
-
-.blue{
-   background-color: #00f;
-   color: white;
-}
-
-.yellow{
-   background-color: #ff0;
-}
-
-.green{
-   background-color: #0f0;
-}
-
-.red{
-   background-color: #f00;
-   color: white;
-}
-
-.caja_botones div:nth-child(1) {
-   background-color: blue;
-}
-
-.caja_botones div:nth-child(2) {
-   background-color: yellow;
-}
-
-.caja_botones div:nth-child(3) {
-   background-color: green;
-}
-
-.caja_botones div:nth-child(4) {
-   background-color: red;
-}
-
-.botones:hover{
-   background-color: opacity(0.5);
-}
-
-.caja{
-   display: flex;
-   height: calc(100vh - 70px);
-}
-
-.caja_botones{
-   display: flex;
-   justify-content: center;
-   margin: 8px;
-}
-
-.cajas{
-   width: 33%;
-   border: solid 1px rgb(0, 0, 0);
+.button{
    text-align: center;
+   margin: 10px;
+   border: 1px solid #000;
+   padding:7px 35px;
+   background-color: rgb(32, 104, 112);
+   color: white;
+   border-radius: 5px;
+}
+
+.button:hover{
+   opacity: 0.8;
+}
+
+.botones{
+   text-align: center;
+   margin: 20px 0px;
+}
+
+.banderas{
+   margin: 20px 0px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.contenedor-foto{
+   display: grid;
+   grid-template-columns: 300px;
+   justify-content: center;
+   text-align: center;
+}
+
+.lugar{
+   margin:auto;
+   background-color: rgb(32, 104, 112);
+   color: white;
+   border-radius: 5px;
+   padding: 7px 35px;
+   text-align: center;
+   width:300px;
+}
+
+.foto{
+   width: 300px;
+   height: auto;
+}
+
+.hide{
+   display: none;
 }
